@@ -51,7 +51,7 @@ const Projects = () => {
 
     useEffect(() => {
         const fetchRepos = async () => {
-            const repos = await getPortfolioRepos('reikuyao');
+            const repos = await getPortfolioRepos('shureiki');
             setProjects(repos);
         };
 
